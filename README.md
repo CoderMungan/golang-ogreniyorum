@@ -1,0 +1,2 @@
+# golang-ogreniyorum
+Dikkate almayın
