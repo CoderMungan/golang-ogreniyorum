@@ -2,7 +2,6 @@ package main //Ana Paket başlangıç noktası
 import "fmt"
 
 
-
 func main(){
 	fmt.Println("Hello World!")
 
