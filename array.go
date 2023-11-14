@@ -17,4 +17,22 @@ func main(){
 
 
 	fmt.Println(num,num2)
+
+	// Array işlemler
+
+	arr := [5]int{10,20,30,40,50}
+	arr[3] = 42
+	fmt.Println(arr)
+
+	// Bir kaç örnek
+
+	stringArr := [...]string{"GoLang Öğreniyorum","Öğrendiklerimi Paylaşıyorum","Ali Ata Bak"}
+	fmt.Println("Öncesi; ", stringArr)
+
+	cliFor := stringArr
+
+	cliFor[2] = "Emel eve gel"
+
+	fmt.Println("stringArr: ", stringArr)
+	fmt.Println("cliFor: ", cliFor)
 }
