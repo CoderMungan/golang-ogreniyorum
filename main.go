@@ -50,4 +50,7 @@ func main(){
 	numaralar := [3]int{1,2,3}
 	numaralar[0] = 5
 	fmt.Println(numaralar)
+
+
+	
 }
